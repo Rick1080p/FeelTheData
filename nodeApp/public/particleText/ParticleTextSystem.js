@@ -50,14 +50,14 @@ function setup() {
             button.position(windowWidth/2 - 100, windowHeight - windowHeight/4);
             button.style('font-family','Gloock');
             button.style('letter-spacing', 2);
-            button.mousePressed();
+            button.mousePressed(changePage)
             description = true;
             //description = font.textBounds('Qualcosa', 500, 100, 250);
             
         }, showStartButton);
 }
 
-function mousePressed(){
+function changePage(){
     window.location.href = "/map.html";
 }
 

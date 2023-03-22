@@ -202,6 +202,7 @@ ctx.fillStyle = "white";
 ctx.font = "30px Gloock";
 ctx.fillText(epicStrings[epics], (canvas.width / 2)-500, canvas.height / 2);
 ctx.fillText(epicStrings[epics+1], (canvas.width / 2)-450, canvas.height / 2 + 50);
+ctx.fillText("Loading "+ city + " ...", (canvas.width / 2)-100, canvas.height / 2 + 150);
 
 myImage.addEventListener('load', function () {
     
